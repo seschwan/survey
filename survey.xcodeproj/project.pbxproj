@@ -12,6 +12,9 @@
 		EF2F50C62274EDDF00F5E345 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2F50C42274EDDF00F5E345 /* Main.storyboard */; };
 		EF2F50C82274EDE100F5E345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF2F50C72274EDE100F5E345 /* Assets.xcassets */; };
 		EF2F50CB2274EDE100F5E345 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2F50C92274EDE100F5E345 /* LaunchScreen.storyboard */; };
+		EF2F50D32277D91B00F5E345 /* Voting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2F50D22277D91B00F5E345 /* Voting.storyboard */; };
+		EF2F50D52277D92F00F5E345 /* Results.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2F50D42277D92F00F5E345 /* Results.storyboard */; };
+		EF2F50D72277D93D00F5E345 /* Combined.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF2F50D62277D93D00F5E345 /* Combined.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		EF2F50C72274EDE100F5E345 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF2F50CA2274EDE100F5E345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF2F50CC2274EDE100F5E345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF2F50D22277D91B00F5E345 /* Voting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Voting.storyboard; sourceTree = "<group>"; };
+		EF2F50D42277D92F00F5E345 /* Results.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Results.storyboard; path = ../Results.storyboard; sourceTree = "<group>"; };
+		EF2F50D62277D93D00F5E345 /* Combined.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Combined.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +62,23 @@
 			children = (
 				EF2F50C02274EDDF00F5E345 /* AppDelegate.swift */,
 				EF2F50C22274EDDF00F5E345 /* ViewController.swift */,
-				EF2F50C42274EDDF00F5E345 /* Main.storyboard */,
+				EF2F50D82277D94600F5E345 /* Storyboards */,
 				EF2F50C72274EDE100F5E345 /* Assets.xcassets */,
 				EF2F50C92274EDE100F5E345 /* LaunchScreen.storyboard */,
 				EF2F50CC2274EDE100F5E345 /* Info.plist */,
 			);
 			path = survey;
+			sourceTree = "<group>";
+		};
+		EF2F50D82277D94600F5E345 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				EF2F50C42274EDDF00F5E345 /* Main.storyboard */,
+				EF2F50D22277D91B00F5E345 /* Voting.storyboard */,
+				EF2F50D42277D92F00F5E345 /* Results.storyboard */,
+				EF2F50D62277D93D00F5E345 /* Combined.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +140,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF2F50CB2274EDE100F5E345 /* LaunchScreen.storyboard in Resources */,
+				EF2F50D52277D92F00F5E345 /* Results.storyboard in Resources */,
 				EF2F50C82274EDE100F5E345 /* Assets.xcassets in Resources */,
 				EF2F50C62274EDDF00F5E345 /* Main.storyboard in Resources */,
+				EF2F50D32277D91B00F5E345 /* Voting.storyboard in Resources */,
+				EF2F50D72277D93D00F5E345 /* Combined.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

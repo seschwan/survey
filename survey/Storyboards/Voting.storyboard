@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="yn0-8L-Db9">
+            <objects>
+                <viewController id="hfN-dj-tn1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="b69-4z-0mp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="What is your favorite color?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Fo-zM-Vju">
+                                <rect key="frame" x="102.5" y="112" width="209" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Color" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Mmj-mz-wV3">
+                                <rect key="frame" x="50" y="216" width="314" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FF9-P3-2Sy">
+                                <rect key="frame" x="50" y="155" width="314" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="paP-Yc-nOz">
+                                <rect key="frame" x="188" y="271" width="39" height="30"/>
+                                <state key="normal" title="VOTE"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="1Fo-zM-Vju" firstAttribute="centerX" secondItem="b69-4z-0mp" secondAttribute="centerX" id="73V-Rh-Q8d"/>
+                            <constraint firstItem="Mmj-mz-wV3" firstAttribute="leading" secondItem="0E2-Sl-AZI" secondAttribute="leading" constant="50" id="NXo-Mb-M9c"/>
+                            <constraint firstItem="0E2-Sl-AZI" firstAttribute="trailing" secondItem="FF9-P3-2Sy" secondAttribute="trailing" constant="50" id="PSZ-uL-QBL"/>
+                            <constraint firstItem="paP-Yc-nOz" firstAttribute="centerX" secondItem="b69-4z-0mp" secondAttribute="centerX" id="SjQ-UY-pfC"/>
+                            <constraint firstItem="FF9-P3-2Sy" firstAttribute="centerX" secondItem="b69-4z-0mp" secondAttribute="centerX" id="fYK-Mq-L04"/>
+                            <constraint firstItem="Mmj-mz-wV3" firstAttribute="centerX" secondItem="b69-4z-0mp" secondAttribute="centerX" id="pnX-by-h8H"/>
+                            <constraint firstItem="0E2-Sl-AZI" firstAttribute="trailing" secondItem="Mmj-mz-wV3" secondAttribute="trailing" constant="50" id="y7N-lr-X3r"/>
+                            <constraint firstItem="FF9-P3-2Sy" firstAttribute="leading" secondItem="0E2-Sl-AZI" secondAttribute="leading" constant="50" id="yya-dl-8Z5"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="0E2-Sl-AZI"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iBD-LM-ehJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="173.91304347826087" y="163.39285714285714"/>
+        </scene>
+    </scenes>
+</document>
